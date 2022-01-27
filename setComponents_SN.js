@@ -62,7 +62,7 @@ function randomAvion(){
     // return arrayAviones;
 }
 randomAvion();
-// log(arrayAviones);
+log(arrayAviones);
 
 function randomPasajero(){
 
@@ -85,5 +85,7 @@ function randomPasajero(){
     // return arrayPasajeros;
 }
 randomPasajero();
-log(arrayPasajeros);
+// 
+
+module.exports={arrayAviones,arrayPaises,arrayPasajeros}
 
