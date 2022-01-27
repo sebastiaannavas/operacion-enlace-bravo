@@ -30,15 +30,15 @@ function Pasajeros(iDPasajero, iDVuelo, vacuna, sintomas, contacto, temperatura,
 let arrayPaises = ['España', 'Nicaragua', 'Panama', 'Mexico', 'Venezuela'];
 
 // aqui agregue pais con numero de vuelo ya
-let paisesVuelo ={
-    pais1: 'Uruguay', nVuelo: 'A1-56', casosInfectados1: numeroCasosRandom(),
-    pais2: 'Nicaragua', nVuelo2: 'A4-56', casosInfectados2: numeroCasosRandom(),
-    pais3: 'Panama', nVuelo3: 'A10-14', casosInfectados3: numeroCasosRandom(),
-    pais4: 'Mexico', nVuelo4: 'A7-78', casosInfectados4: numeroCasosRandom(),
-    pais5: 'Venezuela', nVuelo5: 'A5-23', casosInfectados5: numeroCasosRandom(),
-    pais6: 'Colombia', nVuelo6: 'A2-49', casosInfectados6: numeroCasosRandom(),
-    pais7: 'Brasil', nVuelo7: 'A9-78', casosInfectados7: numeroCasosRandom()
-}
+let paisesVuelo =[
+    {pais: 'Uruguay', nVuelo: 'A1-56', casosInfectados: numeroCasosRandom()},
+    {pais: 'Nicaragua', nVuelo: 'A4-56', casosInfectados: numeroCasosRandom()},
+    {pais: 'Panama', nVuelo: 'A10-14', casosInfectados: numeroCasosRandom()},
+    {pais: 'Mexico', nVuelo: 'A7-78', casosInfectados: numeroCasosRandom()},
+    {pais: 'Venezuela', nVuelo: 'A5-23', casosInfectados: numeroCasosRandom()},
+    {pais: 'Colombia', nVuelo: 'A2-49', casosInfectados: numeroCasosRandom()},
+    {pais: 'Brasil', nVuelo: 'A9-78', casosInfectados: numeroCasosRandom()}
+]
 
 let arrayAviones = [], arrayPasajeros = [];
 
