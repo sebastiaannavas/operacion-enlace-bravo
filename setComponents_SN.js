@@ -62,7 +62,8 @@ function randomAvion(){
     // return arrayAviones;
 }
 randomAvion();
-// log(arrayAviones);
+log("array\n",arrayAviones)
+log("\n\n*********************", arrayAviones[0].destino.nombre, arrayAviones[0].destino.casos, arrayAviones[0].iDAvion);
 
 function randomPasajero(){
 
@@ -85,5 +86,5 @@ function randomPasajero(){
     // return arrayPasajeros;
 }
 randomPasajero();
-log(arrayPasajeros);
+// log(arrayPasajeros);
 
