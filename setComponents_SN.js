@@ -25,6 +25,7 @@ function randomValue(array) {
     return array;
 }
 
+
 function randomPais(){
 
     let idx = 0, paisLen = listaPaises.length;
@@ -62,7 +63,7 @@ function randomAvion(){
     // return arrayAviones;
 }
 randomAvion();
-log(arrayAviones);
+// log(arrayAviones);
 
 function randomPasajero(){
 
@@ -86,6 +87,7 @@ function randomPasajero(){
 }
 randomPasajero();
 // 
+console.log(arrayPasajeros)
 
 module.exports={arrayAviones,arrayPaises,arrayPasajeros}
 
